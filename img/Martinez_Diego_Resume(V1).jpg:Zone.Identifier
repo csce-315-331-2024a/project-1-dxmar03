@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/7ad3da7d-8000-4d33-9567-894418e92a8e/Martinez_Diego_Resume%28V1%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240122%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240122T142951Z&X-Amz-Expires=86400&X-Amz-Signature=800a09e00f28c086d769726b5914967305344474cac3b1b1564b7aeba3a7900e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Martinez_Diego_Resume%28V1%29.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject
