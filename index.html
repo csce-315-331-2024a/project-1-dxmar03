@@ -4,40 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/911fd8f3f4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="page-wrapper"> 
-        <aside class="nav-bar">
-            <h3 class="nav">Naviagation</h3>
+        <nav>
             <ul>
-                <li>
-                    <a href="" class="nav-button">Technical</a>
-                </li>
-                <li>
-                    <a href="" class="nav-button">Service</a>
-                </li>
-                <li>
-                    <a href="" class="nav-button">Resume</a>
-                </li>
-                <li>
-                    <a href="" class="nav-button">About Me</a>
-                </li>
-                <li>
-                    <a href="" class="nav-button">AI Page</a>
-                </li>
-            </ul>
-        </aside> 
+                <li> <a href="" class="nav-button">Home</a> </li
+                ><li> <a href="" class="nav-button">Technical</a> </li
+                ><li> <a href="" class="nav-button">Service</a> </li
+                ><li> <a href="" class="nav-button">Resume</a> </li
+                ><li> <a href="" class="nav-button">About Me</a> </li
+                ><li> <a href="" class="nav-button">AI Page</a> </li
+            ></ul>
+        </nav>
 
         <div class="home-box1">
             <h1 class="Name">Diego Martinez</h1>
             <p class="Intro">I'm currently studying Computer Scienceat at the engineering school of Texas A&M University.</p>
-            <img class="image1" src="img/image1.jpg" alt="Wedding picture with Llamas">
+            <img class="image1" src="img/image1.jpg" title="Wedding picture with Llamas" height="200" width="200">
+            <div class="link-hub">
+                <a href="https://www.instagram.com/diegocantskate/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/" class="linkedin" title="Go to my linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/dxmar03" class="github" title="Go to my school github"><i class="fa-brands fa-square-github"></i></a>
+                <button onclick="copyFucntion()"><i class="fa-solid fa-envelope"></i></button>
+            </div>
         </div>
         
-        <a href="subpage1.html" target=_self title="youtube.com"> <!-- open links to another page, put URL-->
-            Opens up youtube, sike!
-        </a>
-        <p>Adding new line with this thang</p>
+        <div class="home-box2">
+            <h1 class="contact-title">Contact Me</h1>
+            <div class="contact-bottom">
+                <form>
+                    <input tpye="text" name="email" placeholder="Your Email" required> 
+                    <input tpye="text" name="name" placeholder="Your Name" required> 
+                    <textarea name="message" placeholder="Your message" rows="6"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <button type="submit"><i class="fa-solid fa-wand-magic-sparkles"></i></button>
+        </footer>
     </div>
 </body>
 </html>
