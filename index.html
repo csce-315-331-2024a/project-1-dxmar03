@@ -12,25 +12,32 @@
     <div class="page-wrapper"> 
         <nav>
             <ul>
-                <li> <a href="" class="nav-button">Home</a> </li
+                <li> <a href="index.html" class="nav-button">Home</a> </li
                 ><li> <a href="" class="nav-button">Technical</a> </li
                 ><li> <a href="" class="nav-button">Service</a> </li
                 ><li> <a href="" class="nav-button">Resume</a> </li
                 ><li> <a href="" class="nav-button">About</a> </li
-                ><li> <a href="" class="nav-button">AI Page</a> </li
+                ><li> <a href="ai-page.html" class="nav-button">AI Page</a> </li
             ></ul>
         </nav>
 
         <section>
             <div class="box">
-                <p class="name">Diego Martinez</p>
-                <p class="intro">I'm currently studying Computer Science at the engineering school of Texas A&M University.</p>
-                <img class="image1" src="img/image1.jpg" title="Wedding picture with Llamas" height="200" width="200">
+                <div class="content">
+                    <div>
+                        <p class="name">Diego Martinez</p>
+                        <p class="intro">I'm currently studying Computer Science at the engineering school of Texas A&M University.</p>
+                    </div> 
+                    <div>
+                        <img class="image1" src="img/image1.jpg" title="Wedding picture with Llamas" height="200" width="200">
+                    </div>
+                </div>
                 <div class="link-hub">
                     <a href="https://www.instagram.com/diegocantskate/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
                     <a href="https://www.linkedin.com/" class="linkedin" title="Go to my linkedin"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/dxmar03" class="github" title="Go to my school github"><i class="fa-brands fa-square-github"></i></a>
-                    <button onclick="copyFucntion()"><i class="fa-solid fa-envelope"></i></button>
+                    <button onclick="copyFucntion()"><i class="fa-solid fa-square-envelope"></i></button>
+                    <button type="submit"><i class="fa-solid fa-wand-magic-sparkles"></i></button>
                 </div>
             </div>
         </section>
@@ -43,15 +50,12 @@
                         <input tpye="text" name="email" placeholder="Your Email" required> 
                         <input tpye="text" name="name" placeholder="Your Name" required> 
                         <textarea name="message" placeholder="Your message" rows="6"></textarea>
-                        <button type="submit">Send</button>
+                        <button type="submit" class="btn1">Send</button>
                     </form>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <button type="submit"><i class="fa-solid fa-wand-magic-sparkles"></i></button>
-        </footer>
     </div>
 </body>
 </html>
