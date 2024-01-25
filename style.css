@@ -56,14 +56,6 @@ section {
     flex-direction: row;
     justify-content: space-between;
 }
-@media (max-width: 1200px) {
-    .content {
-        flex-direction: column;
-    }
-    .link-hub{
-        margin-top: 0;
-    }
-}
 .link-hub{
     margin-top: -50px;
 }
@@ -82,19 +74,46 @@ section {
     font-size: 50px;
     color:#231F20;
 }
-.name{
+.title1{
     width: 90%;
     font-size: 125px;
     font-weight: bold;
+    margin-bottom: 40px;
+}
+.title2{
+    text-align: center;
+    padding: 20px;
+    font-size: 85px;
+    font-weight: bold;
+}
+.title3{
+    width: 90%;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 .intro{
     width: 1000px;
     font-size: 45px;
     font-weight:normal;
 }
+.content div ul{
+    /* margin-right: 55px; */
+    margin-left: 55px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+i {
+    margin-left: 20px;
+}
 .image1{
     width: 900px;
     height: 900px;
+    margin-bottom: 30px;
+}
+.resume-img{
+    width: 1900px;
+    height: 2679px;
 }
 .contact-title{
     width: 90%;
@@ -121,4 +140,45 @@ form input, form textarea{
     margin: 15px;
     border-radius: 6px;
     font-style: 18px;
+}
+.point{
+    width: 1000px;
+    font-size: 55px;
+    font-weight:lighter;
+    margin-left: 10px;
+}
+.discription{
+    font-size: 40px;
+    font-weight:lighter;
+}
+.download-text{
+    align-items: center;
+    font-size: 25px;
+    font-weight:lighter;
+    margin-left: 50px;
+    width: 95%;
+}
+.about-discription {
+    font-size: 37px;
+    font-weight:lighter;
+}
+.about-discription-last{
+    margin-top: 50px;
+    font-size: 37px;
+    font-weight:lighter;
+}
+@media (max-width: 2000px) {
+    .content {
+        flex-direction: column;
+    }
+    .link-hub{ /*This is broken and not working*/
+        margin-top: 0;
+    }
+    .download-text{ /*This is broken and not working*/
+        margin-left: 25px;
+    }
+    .resume-img{
+        width: 900px;
+        height: 1269px;
+    }
 }
