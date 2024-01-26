@@ -12,14 +12,13 @@ body{
     background-position: center;
     color: #231F20;
     padding-top: 60px;
-    padding-bottom: 60px; /*might need to change later*/
+    padding-bottom: 60px;
 }
+/*All elemtns that went into the home page, as well as the general box design used through out the websight*/
 nav {
     width: 95%;
     display: flex;
     justify-content: space-around;
-    /* margin-left: 60px;
-    margin-right: 60px; */
 }
 nav ul{
     list-style: none;
@@ -34,9 +33,9 @@ nav ul li{
     text-decoration: none;
     color:#231F20;
     box-sizing: border-box;
-    width: 300px;
+    width: 250px;
     display: block;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
 }
@@ -56,6 +55,7 @@ section {
     flex-direction: row;
     justify-content: space-between;
 }
+/*this is the links on the home page*/
 .link-hub{
     margin-top: -50px;
 }
@@ -74,6 +74,12 @@ section {
     font-size: 50px;
     color:#231F20;
 }
+/*Makes links viewable in html once the css is disabled, so the icons will disapear*/
+.html_view{
+    display: none;
+    visibility: hidden;
+}
+/*All the titles used on the top of the pages.*/
 .title1{
     width: 90%;
     font-size: 125px;
@@ -81,40 +87,26 @@ section {
     margin-bottom: 40px;
 }
 .title2{
+    width: 90%;
     text-align: center;
     padding: 20px;
-    font-size: 85px;
+    font-size: 80px;
     font-weight: bold;
 }
 .title3{
     width: 90%;
-    font-size: 85px;
+    font-size: 75px;
     font-weight: bold;
     margin-bottom: 40px;
 }
+/*Home page intro text*/
 .intro{
-    width: 1000px;
+    width: 90%;
     font-size: 45px;
     font-weight:normal;
+    margin-bottom: 60px;
 }
-.content div ul{
-    /* margin-right: 55px; */
-    margin-left: 55px;
-    width: 800px;
-    margin-bottom: 50px;
-}
-i {
-    margin-left: 20px;
-}
-.image1{
-    width: 900px;
-    height: 900px;
-    margin-bottom: 30px;
-}
-.resume-img{
-    width: 1900px;
-    height: 2679px;
-}
+/*The second box on the home page for getting in contact with me*/
 .contact-title{
     width: 90%;
     font-size: 125px;
@@ -141,8 +133,65 @@ form input, form textarea{
     border-radius: 6px;
     font-style: 18px;
 }
+/*The pages that had two images needed these specific containers to be stack on one another*/
+.tech-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.about-image-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/*All image styling to stay at a varable width and height*/
+.image1{
+    width: 30%;
+    height: 50%;
+}
+.image2{
+    margin-top: 50px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 50%;
+    margin-bottom: 50px;
+}
+.image3{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 50%;
+}
+.image4{
+    width: 40%;
+    height: 50%;
+    margin-top: 70px;
+}
+.resume-img{
+    width: 100%;
+    height: 100%;
+}
+.image5{
+    width: 100%;
+    height: 50%;
+}
+.image6{
+    width: 100%;
+    height: 50%;
+}
+/*All they styling needed for all list and bullet points to work within the margin named content of page*/
+.content div ul{
+    width: 90%;
+    margin-bottom: 50px;
+}
+i {
+    margin-left: 20px;
+}
 .point{
-    width: 1000px;
+    width: 90%;
     font-size: 55px;
     font-weight:lighter;
     margin-left: 10px;
@@ -151,6 +200,7 @@ form input, form textarea{
     font-size: 40px;
     font-weight:lighter;
 }
+/*The styling for the download pdf link in the resume page*/
 .download-text{
     align-items: center;
     font-size: 25px;
@@ -158,6 +208,7 @@ form input, form textarea{
     margin-left: 50px;
     width: 95%;
 }
+/*needed to make the about page a little bit different in terms of styling for the text*/
 .about-discription {
     font-size: 37px;
     font-weight:lighter;
@@ -167,18 +218,25 @@ form input, form textarea{
     font-size: 37px;
     font-weight:lighter;
 }
-@media (max-width: 2000px) {
+/*media triggers so paged and there conetent can resize appropriatly for any screen*/
+@media (max-width: 1200px) {
     .content {
         flex-direction: column;
     }
-    .link-hub{ /*This is broken and not working*/
+    .link-hub{
         margin-top: 0;
     }
-    .download-text{ /*This is broken and not working*/
+    .download-text{ 
         margin-left: 25px;
     }
     .resume-img{
         width: 900px;
         height: 1269px;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image5{
+        margin-top: 40px;
     }
 }
