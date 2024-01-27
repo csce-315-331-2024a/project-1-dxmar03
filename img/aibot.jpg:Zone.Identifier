@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/a1b26e83-cf83-48fe-af2b-b5b47996fd45/aibot.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240127%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240127T023504Z&X-Amz-Expires=86400&X-Amz-Signature=422b76df8c25ec898be3ea8d297b3a1085d954a7cf85f6d8cc95708b0816b28e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22aibot.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject
