@@ -224,20 +224,27 @@ i {
     margin-top: -50px;
     width: 50%;
 }
-.link-hub a i{
-    font-size: 5vw;
+.link-hub a img{
+    width: 3.5vw;
     text-decoration: none;
     margin-right: 15px;
     color: #231F20;
+    margin-left: 20px;
 }
 .link-hub button {
     background-color: transparent;
     margin-right: 25px;
     border: none;
 }
-.link-hub button i{
-    font-size: 5vw;
+.link-hub button img{
+    width: 3.8vw;
     color:#231F20;
+    margin-left: 20px;
+}
+.img-chain{
+    width: 3.8vw;
+    color:#231F20;
+    margin-left: 20px;
 }
 /*needed for links to be displayed when viewing html code only*/
 .html_view{

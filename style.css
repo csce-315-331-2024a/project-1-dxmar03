@@ -60,24 +60,31 @@ section {
     flex-direction: row;
     justify-content: center;
 }
-/*this is the links on the home page*/
+/*this is the links on the home page and other link pngs*/
 .link-hub{
     margin-top: -50px;
 }
-.link-hub a i{
-    font-size: 50px;
+.link-hub a img{
+    width: 3.5vw;
     text-decoration: none;
     margin-right: 15px;
     color: #231F20;
+    margin-left: 20px;
 }
 .link-hub button {
     background-color: transparent;
     margin-right: 15px;
     border: none;
 }
-.link-hub button i{
-    font-size: 50px;
+.link-hub button img {
+    width: 3.8vw;
     color:#231F20;
+    margin-left: 20px;
+}
+.img-chain{
+    width: 3.8vw;
+    color:#231F20;
+    margin-left: 20px;
 }
 /*Makes links viewable in html once the css is disabled, so the icons will disapear*/
 .html_view{
@@ -198,9 +205,9 @@ form input, form textarea{
     width: 90%;
     margin-bottom: 50px;
 }
-i {
+/* i {
     margin-left: 20px;
-}
+} */
 .point{
     width: 90%;
     font-size: 55px;
