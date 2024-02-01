@@ -85,7 +85,7 @@ section {
     visibility: hidden;
 }
 /*All the titles used on the top of the pages.*/
-.title1{
+.title1, .about-title {
     width: 90%;
     font-size: 125px;
     font-weight: bold;
@@ -145,7 +145,7 @@ form input, form textarea{
     align-items: center;
     width: 100%;
 }
-.about-image-text-container{
+.about-image-text-container, .about-image-text-container-2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +194,7 @@ form input, form textarea{
     width: 90%;
     margin-bottom: 50px;
 }
-.content-resume-about div ul{
+.content-resume-about div ul, .about-image-text-container section ul, .about-image-text-container-2 section ul{
     width: 90%;
     margin-bottom: 50px;
 }

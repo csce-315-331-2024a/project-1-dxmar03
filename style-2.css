@@ -100,6 +100,30 @@ nav ul li{
     margin-bottom: 45px;
     font-size: 1.8vw;
 }
+.about-image-text-container{
+    display: flex;
+    flex-direction: row;
+}
+.about-image-text-container-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.about-image-text-container section, .about-image-text-container image, .about-image-text-container-2 section, .about-image-text-container-2 img{
+    flex: 1; 
+    /* max-width: 50%; */
+    box-sizing: border-box;
+    padding:40px; 
+}
+.about-discription {
+    font-size: 2.2vw;
+    font-weight:lighter;
+    margin-bottom: 50px;
+}
+.about-discription-last{
+    margin-bottom: 50px;
+    font-size: 2.2vw;
+    font-weight:lighter;
+}
 .title1, .title3, .title2{
     width: 100%;
     text-align: center;
@@ -117,6 +141,14 @@ nav ul li{
 .title3{
     
     font-size: 7vw;
+}
+.about-title{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 6vw;
 }
 .content div ul{
     width: 90%;
@@ -169,6 +201,17 @@ i {
     max-height: 50%;
     padding: 45px;
     margin-top: 70px;
+}
+.image5{
+    width: auto;
+    max-width: 50%;
+    height: 50%;
+}
+.image6{
+    width: auto;
+    max-width: 50%;
+    height: 50%;
+    padding: 45px;
 }
 .link-hub{
     margin-top: -50px;
