@@ -53,7 +53,12 @@ section {
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+}
+.content-resume-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 /*this is the links on the home page*/
 .link-hub{
@@ -171,7 +176,9 @@ form input, form textarea{
     margin-top: 70px;
 }
 .resume-img{
+    width:auto;
     width: 100%;
+    height:auto;
     height: 100%;
 }
 .image5{
@@ -184,6 +191,10 @@ form input, form textarea{
 }
 /*All they styling needed for all list and bullet points to work within the margin named content of page*/
 .content div ul{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.content-resume-about div ul{
     width: 90%;
     margin-bottom: 50px;
 }
@@ -220,7 +231,7 @@ i {
 }
 /*media triggers so paged and there conetent can resize appropriatly for any screen*/
 @media (max-width: 1200px) {
-    .content {
+    .content-resume-about {
         flex-direction: column;
     }
     .link-hub{
